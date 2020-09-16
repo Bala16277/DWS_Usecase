@@ -24,4 +24,8 @@ public class AccountsService {
   public Account getAccount(String accountId) {
     return this.accountsRepository.getAccount(accountId);
   }
+
+public AccountsRepository getAccountsRepository() {
+	return accountsRepository;
+}
 }
